@@ -2,14 +2,11 @@
 #include <stdio.h>
 
 /**
- * infinite_add - adds two numbers
- * @n1: number one.
+ * rev_string- reverse array
+ * @n : integer params
  * @n2: number two.
- * @r: buffer that the function will use to store the result.
- * @size_r: buffer size:
- * Return: the pointer to dest.
+ * Return : 0
  */
-
 void rev_string(char* n)
 {
 	int i = 0;
@@ -29,6 +26,14 @@ void rev_string(char* n)
 		*(n + i) = temp;
 	}
 }
+/**
+ * infinite_add - adds two numbers
+ * @n1: number one.
+ * @n2: number two.
+ * @r: buffer that the function will use to store the result.
+ * @size_r: buffer size:
+ * Return: the pointer to dest.
+ */
 
 char* infinite_add(char* n1, char* n2, char* r, int size_r)
 {
