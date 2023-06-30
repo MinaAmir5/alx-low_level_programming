@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * rev_string- reverse array
  * @n : integer params
  * @n2: number two.
  * Return : 0
  */
-
 void rev_string(char *n)
 {
 	int i = 0;
@@ -32,7 +30,6 @@ void rev_string(char *n)
  * @size_r: buffer size:
  * Return: the pointer to dest.
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int overflow = 0, i = 0, j = 0, digits = 0;
